@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Css Pribadi-->
+    <link rel="stylesheet" href="asset/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="shadow-lg navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="background-color: rgb(142, 182, 142);">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-weight: bold;"><img src="asset/rr.png" alt="" width="30" height="24">Mados-IT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="font-weight: bold;">
+            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="kegiatan.html">Kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="chalange.html">Challenge</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="tools.html">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="runPopup()" href="#join">Join</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+          <div class="container mt-5">
+            <div class="card shadow">
+          <!--Jumbotron-->
+          <div class="jumbotron p-4 bg-light">
+            <h1 class="display-4">Kegiatan</h1><br>
+            <p class="lead"><b>Kami sangat senang mengadakan seminar untuk mengedukasi masyarakat mengenai kejahatan IT atau masalah berbau IT yang sedang viral pada saat itu.</p>
+              <br>
+          </div>
+              <!-- Isi halaman -->
+                    <!--Menambahkan content artikel-->   
+                    <div class="row m-0 py-3">
+                      <div class="col-md-9">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <div class="card mb-3">
+                                      <div class="card-body text-center">
+                                          <img src="https://uxwing.com/wp-content/themes/uxwing/download/42-business-professional-services/workshop.png" alt=""
+                                              class="rounded-circle mb-3" width="150" height="150">
+                                          <h4>Workshop</h4>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus!</p>
+                                          <a href="#" class="btn btn-secondary">View Detail</a>
+                                      </div>
+                                  </div>
+                              </div>
+      
+                              <div class="col-md-4">
+                                  <div class="card mb-3">
+                                      <div class="card-body text-center">
+                                          <img src="https://w7.pngwing.com/pngs/871/578/png-transparent-stick-figure-with-teaching-stick-on-board-logo-computer-icons-training-and-development-course-education-icon-training-drawing-miscellaneous-angle-text.png" alt=""
+                                              class="rounded-circle mb-3" width="150" height="150">
+                                          <h4>Seminar</h4>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus!</p>
+                                          <a href="#" class="btn btn-secondary">View Detail</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="card mb-3">
+                                      <div class="card-body text-center">
+                                          <img src="https://cdn.pixabay.com/photo/2016/03/31/23/41/classroom-1297779_960_720.png" alt=""
+                                              class="rounded-circle mb-3" width="150" height="150">
+                                          <h4>Diskusi</h4>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus!</p>
+                                          <a href="#" class="btn btn-secondary">View Detail</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+          <footer class="p-3 text-center" style="font-weight: bold;">&copy; 2022 - Mados-IT</footer>
+      </div>
+  </div>
+  <script>  
+    function runPopup(){
+    var respond = prompt("Masukkan Email ? ");
+    if(respond != "")
+    {
+      window.alert("Hai, " + respond + " " + "Tunggu pesan Email nya ya kaka");
+    }
+    else
+    {
+      window.alert("Anda Gagal Untuk JOIN..");
+    }
+    };
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
